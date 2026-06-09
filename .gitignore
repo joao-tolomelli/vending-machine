@@ -1,0 +1,54 @@
+# ==========================================
+# Altera / Intel Quartus Prime .gitignore
+# ==========================================
+
+# Diretórios de compilação e bancos de dados locais
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+timing/
+hc_output/
+.qsys_edit/
+*/synth/
+
+# Arquivos de workspace e configurações de usuário (específicos do seu PC)
+*.qws
+*.bak
+*.kpt
+*.user
+*.tcl~
+
+# Arquivos de relatório gerados a cada compilação
+*.rpt
+*.smsg
+*.summary
+*.done
+*.jdi
+*.pin
+*.qmsg
+*.eqn
+*.map
+*.mif
+*.qdf
+*.ndb
+
+# Arquivos temporários e de log
+*.log
+*.err
+*~
+*.tmp
+
+# Arquivos de programação (Binários)
+# Descomente as duas linhas abaixo se desejar versionar o arquivo final da placa
+*.sof
+*.pof
+*.jam
+*.jbc
+*.svf
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
